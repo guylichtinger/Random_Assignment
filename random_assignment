@@ -1,0 +1,33 @@
+<script>
+
+    function Random_link() {
+        var rndint = getRndInteger(1,4)
+
+        if (rndint == 1){
+            window.location.href = " https://ebrdproof-da.herokuapp.com/join/ebm728f6uv/";
+        }
+
+        if (rndint == 2){
+            window.location.href = "  https://ebrdproof-da.herokuapp.com/join/m7i65afc2o/\n";
+        }
+
+        if (rndint == 3){
+            window.location.href = "  https://ebrdproof-da.herokuapp.com/join/539wxiiw1j/";
+        }
+
+        if (rndint == 4){
+            window.location.href = "  https://ebrdproof-da.herokuapp.com/join/g89x3nn2ok/";
+        }
+    }
+
+    function getRndInteger(min, max) {
+        return Math.floor(Math.random() * (max - min + 1) ) + min;
+    }
+
+</script>
+
+
+<body onload="Random_link()">
+
+
+</body>
